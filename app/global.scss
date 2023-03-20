@@ -1,0 +1,23 @@
+:root {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Dank Mono', SFMono-Regular, Courier, 'Liberation Mono', Menlo,
+      Courir, monospace;
+    font-size: 21px;
+    background-color: var (--main-bg-color);
+    color: var(--main-text-color);
+    line-height: 1.5;
+    margin: 0px;
+    margin-left: 4rem;
+
+    /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+    background-color: rgb(255, 255, 255);
+  }
+}

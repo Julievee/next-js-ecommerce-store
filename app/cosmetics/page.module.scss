@@ -1,0 +1,16 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: rgb(199, 203, 255);
+  border-radius: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
